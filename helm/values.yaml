@@ -8,7 +8,7 @@ image:
   repository: spammyoas/order
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: cbbefdf8af153ce12e3220cbe4f5580e0f37cd98
+  tag: e7c8e5fa7599b53547a90945dbbc68fa125689cc
 
 imagePullSecrets: []
 nameOverride: "order"
@@ -22,7 +22,7 @@ serviceAccount:
   # Annotations to add to the service account annotations: {}
   # The name of the service account to use.
   # If not set and create is true, a name is generated using the fullname template
-  name: cbbefdf8af153ce12e3220cbe4f5580e0f37cd98
+  name: e7c8e5fa7599b53547a90945dbbc68fa125689cc
 
 podAnnotations: {}
 podLabels: {}
@@ -46,7 +46,7 @@ service:
 
 ingress:
   enabled: false
-  className: cbbefdf8af153ce12e3220cbe4f5580e0f37cd98
+  className: e7c8e5fa7599b53547a90945dbbc68fa125689cc
   annotations:
     {}
     # kubernetes.io/ingress.class: nginx
